@@ -1,61 +1,108 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+body {
+  font-family: "Poppins";
 }
 
-.container{
-    display: flex;
-}
-main{
-    width: 100%;
-    padding: 20px;
-}
-.navbar{
-    background: #8133BE;
-    color: azure;
-    height: 100vh;
-    width: 300px;
-}
-.top_selection{
-    display: flex;
-    align-items: center;
-    padding: 20px 10px;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border-radius: 0px 10px 10px 0px;
+  position: relative;
 }
 
-.logo{
-    font-size: 20px;
-    margin-left: 10px;
+.container {
+  display: flex;
+  
+  
 }
 
-.bars{
-    display: flex;
-    font-size: 30px;
-    margin-left: 50px;
+main {
+  width: 100%;
+  padding: 20px;
+  scroll-behavior: smooth;
 }
 
-.link{
-    display: flex;
-    color: #D9D9D9; 
-    padding: 10px 15px;
-    gap: 15px;
-    transition: all 0.5s; 
-    font-size: 20px;
+.navbar {
+  background: #8133be;
+  color: azure;
+  height: auto;
+  width: 350px;
+  
 }
 
-.link:hover{
-    background: #D9D9D9;
-    color: #8133BE;
-    border-radius: 10px;
-    margin-left: 5px ;
-    margin-right: 5px ;
-    transition: all 0.5s;
+.top_selection {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  
+  margin: auto;
 }
 
-.active{
-    background: #D9D9D9;
-    color: #8133BE;
-    border-radius: 10px;
-    margin-left: 5px ;
-    margin-right: 5px ;
+.logo {
+  font-size: 20px;
+  margin: 5px;
+  font-weight: 550;
+  font-family: "Poppins";
 }
+
+.bars {
+  display: flex;
+  font-size: 30px;
+
+  font-family: "Poppins";
+}
+
+.link {
+  display: flex;
+  color: #d9d9d9;
+  padding: 10px;
+  gap: 15px;
+  transition: all 0.5s ease;
+  font-size: 18px;
+  /* font-family: "Poppins"; */
+  /* transition:cubic-bezier(0.075, 0.82, 0.165, 1) */
+}
+
+.linklogout {
+  display: flex;
+  color: #d9d9d9;
+  padding: 30px;
+  gap: 15px;
+  font-size: 18px;
+  margin-top: 280px;
+}
+
+.link:hover {
+  background: #d9d9d9;
+  color: #8133be;
+  border-radius: 25px;
+  padding: 10px;
+  gap: 15px;
+  margin: 5px;
+  transition: all 0.5s ease;
+  /* transition:cubic-bezier(0.075, 0.82, 0.165, 1) */
+}
+
+.active {
+  background: #d9d9d9;
+  color: #8133be;
+  border-radius: 25px;
+  padding: 10px;
+  gap: 15px;
+  margin: 5px;
+}
+
+.search {
+  margin: 5px;
+  margin-bottom: 30px;
+  color: #d9d9d9;
+  transition: all 0.5s ease;
+}
+
+.input_search {
+  transition: all 0.5s ease;
+  padding: 5px;
+}
+
+
+

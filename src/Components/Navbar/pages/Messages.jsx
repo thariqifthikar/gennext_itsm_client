@@ -7,7 +7,7 @@ import React from 'react'
 const Messages = () => {
   return (
     <div>
-      <h1>Dashbaord</h1>
+      <h1>Messages</h1>
     </div>
   );
 };

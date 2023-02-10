@@ -12,4 +12,4 @@ const Search = () => {
   );
 };
 
-export default Dashbaord;
+export default Search;
