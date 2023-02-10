@@ -12,14 +12,11 @@ body {
 
 .container {
   display: flex;
-  
-  
 }
 
 main {
   width: 100%;
   padding: 20px;
-  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -27,14 +24,13 @@ main {
   color: azure;
   height: auto;
   width: 350px;
-  
 }
 
 .top_selection {
   display: flex;
   align-items: center;
   padding: 20px 10px;
-  
+
   margin: auto;
 }
 
@@ -69,7 +65,7 @@ main {
   padding: 30px;
   gap: 15px;
   font-size: 18px;
-  margin-top: 280px;
+  margin-top: 215px;
 }
 
 .link:hover {
@@ -103,6 +99,4 @@ main {
   transition: all 0.5s ease;
   padding: 5px;
 }
-
-
 
