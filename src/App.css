@@ -17,13 +17,18 @@ body {
 main {
   width: 100%;
   padding: 20px;
+  
+  margin-left:250px ;
+
 }
 
 .navbar {
   background: #8133be;
   color: azure;
   height: auto;
-  width: 350px;
+  width: auto;
+  position:fixed;
+  z-index: 1;
 }
 
 .top_selection {
