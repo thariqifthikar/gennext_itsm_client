@@ -1,3 +1,21 @@
+
+
+.DefaultFont{
+    font-family :"Poppins";
+}
+
+.dropdown {
+    padding: 8px;
+    font-size: 16px;
+    font-family:'Poppins';
+    border: 1px solid #8133BE;
+    border-radius: 4px;
+    border-color: #8133BE;
+    color: #555357;
+    ;
+  }
+
+
 body {
   font-family: "Poppins";
 }
@@ -105,3 +123,21 @@ main {
   padding: 5px;
 }
 
+    
+
+    
+
+  .dropdown:focus {
+    border-color: #8133BE;
+    outline: 444;
+  }
+
+  .dropdown:checked{
+    background-color: #8133BE;
+    color: #fff;
+  }
+
+  .dropdown::selection{
+    background-color: #8133BE;
+  color: #fff;
+  }
