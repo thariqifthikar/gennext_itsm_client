@@ -2,6 +2,7 @@ import React from 'react';
 import { BarChart, Bar, XAxis } from 'recharts';
 import { PieChart, Pie, Cell } from "recharts";
 import { LineChart, Line } from "recharts";
+import ActiveInactive from "../../../Component/ActiveInactive/ActiveInactive";
 
 const data = [
   { name: 'Page A', uv: 4000, pv: 2400, amt: 2400 },
@@ -21,7 +22,10 @@ const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 function Dashboard() {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr' }}>
-      
+      <BarChart width={400} height={400} data={data}>
+        <XAxis dataKey="name" />
+        <Bar dataKey="uv" fill="#8884d8" />
+      </BarChart>
 
       <PieChart width={400} height={400} >
         <Pie
@@ -37,15 +41,24 @@ function Dashboard() {
           ))}
         </Pie>
       </PieChart>
-      <BarChart width={400} height={400} data={data}>
-        <XAxis dataKey="name" />
-        <Bar dataKey="uv" fill="#8884d8" />
-      </BarChart>
 
-      <LineChart width={400} height={400} data={data}>
-        <XAxis dataKey="name" />
-        <Line type="monotone" dataKey="pv" stroke="#8884d8" />
-      </LineChart>
+        <LineChart width={400} height={400} data={data}>
+          <XAxis dataKey="name" />
+          <Line type="monotone" dataKey="pv" stroke="#8884d8" />
+        </LineChart>
+      </div>
+
+      <div>
+        <MyComponent />
+      </div>
+    </div>
+  );
+}
+
+function MyComponent() {
+  return (
+    <div>
+      <ActiveInactive />
     </div>
   );
 }
