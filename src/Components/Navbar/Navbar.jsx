@@ -71,13 +71,16 @@ const Navbar = ({ children }) => {
             placeholder=" search"
             fontSize="18px"
             prefix={
+              
               <SearchOutlined
                 style={{
                   color: "#8133BE",
                   marginLeft: "10px",
-                  fontSize: "16px",
+                  fontSize: "14px",
+                  className:"search_logo"
                 }}
               />
+              
             }
           />
         </div>

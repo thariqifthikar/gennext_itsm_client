@@ -13,7 +13,7 @@ const Button=({type,variant,className,id ,onClick ,children , style, text, fontC
     id= {id} 
     onClick = {onClick}
     style={{ width: '150px',
-    height: '40px' ,
+    height: '49px' ,
     borderRadius: '20px',
     color:"#FFFFFF" ,
     backgroundColor: "#8133BE",
@@ -21,6 +21,7 @@ const Button=({type,variant,className,id ,onClick ,children , style, text, fontC
     fontSize:18,
     textAlign:'center',
     borderColor:"Background",
+    
     
     
  }}

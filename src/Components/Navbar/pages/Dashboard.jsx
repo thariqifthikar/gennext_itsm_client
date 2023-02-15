@@ -21,10 +21,7 @@ const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 function Dashboard() {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr' }}>
-      <BarChart width={400} height={400} data={data}>
-        <XAxis dataKey="name" />
-        <Bar dataKey="uv" fill="#8884d8" />
-      </BarChart>
+      
 
       <PieChart width={400} height={400} >
         <Pie
@@ -40,6 +37,10 @@ function Dashboard() {
           ))}
         </Pie>
       </PieChart>
+      <BarChart width={400} height={400} data={data}>
+        <XAxis dataKey="name" />
+        <Bar dataKey="uv" fill="#8884d8" />
+      </BarChart>
 
       <LineChart width={400} height={400} data={data}>
         <XAxis dataKey="name" />
