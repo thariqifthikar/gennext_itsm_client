@@ -23,6 +23,7 @@ const App = () => {
       </Navbar>
     </BrowserRouter>
   );
+ 
 };
 
 export default App;
