@@ -41,12 +41,12 @@ function Dashboard() {
           ))}
         </Pie>
       </PieChart>
-
+        
         <LineChart width={400} height={400} data={data}>
           <XAxis dataKey="name" />
           <Line type="monotone" dataKey="pv" stroke="#8884d8" />
         </LineChart>
-      </div>
+      
 
       <div>
         <MyComponent />
