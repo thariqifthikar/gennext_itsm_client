@@ -8,6 +8,7 @@ import Messages from './Containers/Messages';
 import Notifications from './Containers/Notifications';
 import Mysettings from './Containers/Mysettings' 
 import Logout from './Containers/Logout';
+import Chamika from './Containers/Test/Chamika';
 
 
 const App = () => {
@@ -21,6 +22,9 @@ const App = () => {
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/mysettings" element={<Mysettings />} />
           <Route path="/logout" element={<Logout />} />
+
+          {/* test Routes */}
+          <Route path="/chamika" element={<Chamika />} />
         </Routes>
       </Navbar>
     </BrowserRouter>
