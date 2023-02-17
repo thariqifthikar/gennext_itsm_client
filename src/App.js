@@ -1,20 +1,22 @@
 import React from 'react'
 import './../src/App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from './Components/Navbar/Navbar';
-import Dashboard from './Components/Navbar/pages/Dashboard';
-import Servicedesk from './Components/Navbar/pages/Servicedesk.jsx';
-import Messages from './Components/Navbar/pages/Messages.jsx';
-import Notifications from './Components/Navbar/pages/Notifications.jsx';
-import Mysettings from './Components/Navbar/pages/Mysettings.jsx';
-import Logout from './Components/Navbar/pages/Logout.jsx';
+import Navbar from './Components/Navbar';
+import Dashboard from './Containers/Dashboard';
+import Servicedesk from './Containers/Servicedesk';
+import Messages from './Containers/Messages';
+import Notifications from './Containers/Notifications';
+import Mysettings from './Containers/Mysettings' 
+import Logout from './Containers/Logout';
+
+
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar>
         <Routes>
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/servicedesk" element={<Servicedesk />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Servicedesk" element={<Servicedesk />} />
           <Route path="/messages" element={<Messages />} />
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/mysettings" element={<Mysettings />} />
