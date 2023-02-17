@@ -1,7 +1,7 @@
 import React from "react";
 import { WarningOutlined, PlusCircleOutlined } from "@ant-design/icons";
 
-import DynamicButton from "../../../Component/Buttons/DynamicButton";
+import DynamicButton from '../Components/Buttons/DynamicButton';
 
 const Servicedesk = () => {
   return (

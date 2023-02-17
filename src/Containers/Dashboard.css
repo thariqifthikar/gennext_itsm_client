@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+  .barchart,
+  .piechart,
+  .linechart {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .barchart {
+    width: 100%;
+  }
+  .piechart,
+  .linechart {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .barchart {
+    width: 33.33%;
+  }
+  .piechart,
+  .linechart {
+    width: 66.66%;
+  }
+}
