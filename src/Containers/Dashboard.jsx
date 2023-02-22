@@ -6,6 +6,13 @@ import ActiveInactive from "../Components/ActiveInactive/ActiveInactive"
 import { Row, Col } from "antd";
 import "./Dashboard.css";
 
+const data = [
+  { name: "Group A", value: 400 },
+  { name: "Group B", value: 600 },
+  { name: "Group C", value: 300 },
+  { name: "Group D", value: 200 },
+];
+
 function Dashboard() {
   return (
     <div>
@@ -14,7 +21,7 @@ function Dashboard() {
           <Barchart />
         </Col>
         <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
-          <Piechart />
+          <Piechart data={data}/>
         </Col>
         <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
           <Linechart />

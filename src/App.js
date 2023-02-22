@@ -8,6 +8,8 @@ import Messages from './Containers/Messages';
 import Notifications from './Containers/Notifications';
 import Mysettings from './Containers/Mysettings' 
 import Logout from './Containers/Logout';
+// import VerticalLabel from './Components/TextInput';
+import VerticalTextInput from './Components/VerticalInupt/VerticalTextInput';
 
 
 const App = () => {
@@ -21,6 +23,7 @@ const App = () => {
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/mysettings" element={<Mysettings />} />
           <Route path="/logout" element={<Logout />} />
+          <Route path="/verticalTextInput" element={<VerticalTextInput />} />
         </Routes>
       </Navbar>
     </BrowserRouter>

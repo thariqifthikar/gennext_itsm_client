@@ -1,0 +1,41 @@
+.custom-input {
+    border-radius: 10px;
+    border: 2px solid #8133be;
+    color: #8133be;
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .custom-input input {
+    font-size: 16px;
+    color: #8133be;
+    /* color: #333; */
+  }
+  
+  .custom-input .ant-input-affix-wrapper {
+    border-radius: 40px;
+    border: none;
+    color: #8133be;
+    background-color: #d78ce9;
+  }
+  
+  .custom-input .ant-input-affix-wrapper:focus,
+  .custom-input .ant-input-affix-wrapper-focused {
+    box-shadow: none;
+    color: #8133be;
+    border-color: #9c21f3;
+  }
+  .ant-form-item .ant-form-item-label >label{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    height: 40px;
+    color: #8133be;
+    /* color: rgba(0, 0, 0, 0.88); */
+    font-size: 20px;
+  }
+
+ 

@@ -1,28 +1,42 @@
+import { Dropdown ,Form} from "antd";
 import React from "react";
+import DropdownList from "../Components/Dropdownlist";
 
-import { Form, Input } from 'antd';
-import { Row, Col } from 'antd';
-import { Card } from 'antd';
 
-const Logout = () => {
+function Logout(props) {
+  // define label style with fontSize property
   return (
-    <div>
-      {/* <h1>Logging out</h1>
-      <Card title="Example Card" style={{ width: 300 }}>
-      <p>Card content goes here.</p>
-    </Card> */}
+    <>
+     <h1>test</h1>
+    
+      <DropdownList age />
+      
+    
+    </>
      
-    
-      <Form labelCol={{ span: 4 }} wrapperCol={{ span: 8 }} vertical={true} labelAlign="left">
-        <Form.Item label="My Label">
-          <br />
-          <Input />
-        </Form.Item>
-      </Form>
-    </div>
-    
+      
     
   );
-};
+}
 
 export default Logout;
+
+//horizontal test
+// import { Input, Form } from "antd";
+// import { UserOutlined, LockOutlined, MailOutlined } from '@ant-design/icons';
+// import HorizontalTextInput from "../Components/HorizontalInput/HorizontalTextInput";
+
+{
+  /* <Form layout="inline">
+      <Form.Item label="Username" >
+        <HorizontalTextInput prefix={<UserOutlined />} name="username" type="text" />
+      </Form.Item>
+      {/* <Form.Item label="Password">
+        <Input prefix={<LockOutlined />} name="password" type="password" />
+      </Form.Item>
+      <Form.Item label="Email">
+        <Input prefix={<MailOutlined />} name="email" type="email" />
+      </Form.Item> */
+}
+//   </Form>
+// ); */}

@@ -1,10 +1,6 @@
+import React from "react";
 
-import React from 'react'
-
-
-
-
-const Messages = () => {
+const Messages = (props) => {
   return (
     <div>
       <h1>Messages</h1>

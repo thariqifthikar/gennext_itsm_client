@@ -155,3 +155,19 @@ main {
 .btn-component {
   font-family: "Poppins";
 }
+.horizontal{
+  display: flex;
+}
+
+.dropdown{
+  color: #8133be;
+  border-radius: 30px;
+}
+.dropdown-list {
+  border: solid #8133be;
+ 
+}
+.drop{
+  color:#FF0000;
+  border-radius: 30px;
+}
