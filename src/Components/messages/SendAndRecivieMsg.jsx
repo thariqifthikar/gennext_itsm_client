@@ -1,5 +1,7 @@
 import React from 'react'
 import ChatCard from './ChatCard';
+import ChatRecivedBox from './ChatRecivedBox';
+import ChatSendBox from './ChatSendBox';
 import './SendAndRecivieMsg.css';
 
 
@@ -13,8 +15,10 @@ export default function SendAndRecivieMsg() {
         {['','','','','','','','','','','','','','',].map(node=> <ChatCard/>)}
       </div>
       <div className="MessagingPane">
-        <p className="P1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores error voluptates totam aperiam est quas distinctio deserunt consequatur laborum et quis, harum vel dolores veritatis. Quis eveniet repellendus vero! Vitae!</p>
-        <p className="P2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores error voluptates totam aperiam est quas distinctio deserunt consequatur laborum et quis, harum vel dolores veritatis. Quis eveniet repellendus vero! Vitae!</p>
+      <ChatRecivedBox/>
+      {['','','','','','','','','','','','','','',].map(node=> <ChatRecivedBox/>)}
+      <ChatSendBox/>
+      {['','','','','','','','','','','','','','',].map(node=> <ChatSendBox/>)}
       </div>
     </div>
  
