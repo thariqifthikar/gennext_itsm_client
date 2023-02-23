@@ -113,3 +113,11 @@ hr{
     background-color:#8742BC;
     color:white;
 }
+@media (max-width:1602em){
+  .ActiveInactivePane{
+    width:100%;
+  }
+  .Buttons{
+    font-size: small;
+  }
+}
